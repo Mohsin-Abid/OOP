@@ -1,0 +1,11 @@
+#include <iostream> 
+usingnamespace std;
+int main() { 
+
+   int a,b;  
+   cout << "Enter two integers: ";
+   cin >> a >> b; 
+   cout << "The sum is " << a + b<< "\nThe product is " << a * b<< "\nThe difference is " 
+   << a - b << "\nThe quotient is " << a / b << endl; 
+   return 0;
+}
