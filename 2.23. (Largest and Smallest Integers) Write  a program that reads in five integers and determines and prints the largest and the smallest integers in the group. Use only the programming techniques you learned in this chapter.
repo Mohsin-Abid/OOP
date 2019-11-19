@@ -1,0 +1,36 @@
+#include <iostream> 
+using namespace std;
+int main() { 
+	int a,b,c,d,e,small,large;
+	 cout << "Enter five integers: "; 
+	 cin>>a>>b>>c>>d>>e;
+	 large = a;
+	 small = a;
+	  if ( b > large )
+	  large = a;
+	  
+	  if ( c > large )
+	  large = c;
+	  
+	  if ( d > large )
+	  large = d;
+	  
+	  if ( e > large )
+	  large = e;
+	  
+	  if ( b > small )
+	  small = b;
+	  
+	   if ( c > small )
+	  small = c;
+	  
+	   if ( d > small )
+	  small = d;
+	  
+	   if ( e > small )
+	  small = e;
+	   cout << "Largest is " << large<<endl;
+	   cout << "Smallest is " << small<<endl;
+	  
+   return 0;
+}
